@@ -1,12 +1,33 @@
+.main-container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('assets/contra-costa-scenic.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.center {
+margin: auto;
+}
+
+.modal-container {
+  width: 85vw;
+  height: 500px;
+  background-color: #000000;
+  opacity: .7;
+}
+
 .header {
-  z-index: 2;
-   height: 85px;
-   width: 100vw;
-   background-color: #88a8dc;
-   background-color: #2e3450;
-   display: flex;
-   justify-content: flex-end;
-   align-items: center;
+ height: 85px;
+ width: 100vw;
+ background-color: #88a8dc;
+ background-color: #2e3450;
+ display: flex;
+ justify-content: flex-end;
+ align-items: center;
 }
 
 .seal {
@@ -15,7 +36,7 @@
   width: 107px;
   margin-top: 20px;
   margin-left: 20px;
-  background-image: url(http://www.co.contra-costa.ca.us/Images/FormCenter/Items/Contra%20Costa%20County%20Seal%20.png);
+  background-image: url('http://www.co.contra-costa.ca.us/Images/FormCenter/Items/Contra%20Costa%20County%20Seal%20.png');
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-filter: grayscale(100%);
@@ -57,20 +78,4 @@ form {
 .material-icons {
   position: absolute;
   margin-left: 255px;
-}
-
-.icon-holder {
-  width: 100vw;
-  height: 200px;
-  filter: blur(2px);
-  background-color: red;
-  opacity: .3;
-}
-
-.background-image {
-  width: 100vw;
-  height: 500px;
-  background-image: url('assets/contra-costa-scenic.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
 }
